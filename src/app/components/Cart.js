@@ -15,10 +15,10 @@ class Cart extends React.Component {
     return React.addons.PureRenderMixin.shouldComponentUpdate.apply(this, arguments);
   }
 
-  /*
-   * @method render
-   * @returns {JSX}
-   */
+  
+   // * @method render
+   // * @returns {JSX}
+   
   render () {
     return <div className="cart">
       <h2>{this.props.cart.title}</h2>
@@ -37,3 +37,4 @@ Cart.propTypes = {
 };
 
 export default Cart;
+
