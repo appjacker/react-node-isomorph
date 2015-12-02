@@ -24,9 +24,8 @@ import Item from './Item';
 
    render () {
     return <div className="cart">
-    <button className="pull-right"type="button" onClick={this.clearCart}>Clear Cart</button>
     <h2>{this.props.cart.title}</h2>
-    <ul>
+    <ul> 
     {this.props.cart.items.map(function (item, key) {
       return <Item key={key} item={item} />;
     })}
@@ -34,11 +33,6 @@ import Item from './Item';
     </div>;
   }
 
-  clearCart () {
-    // render : function(){
-      return ('', document.getElementsByClassName("cart"));
-    // }
-  }
 }
 
 // Prop types validation

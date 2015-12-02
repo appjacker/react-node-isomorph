@@ -23,13 +23,14 @@ li {
 }
 .pull-right{
 	float:right;
-	margin-top: 20px;
+	margin-top: 25px;
 	border: none;
 	cursor:pointer;
 	width:90px;
 	height:30px	;
 	background-color: red;
 	color:#fff;
+	margin-right: 18px;
 }
 .pull-right:hover{
 	background-color: #000;
